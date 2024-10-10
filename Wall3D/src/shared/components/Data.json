@@ -117,6 +117,88 @@
         "voicealias": "Stop Scan"
       },
       "name": "twx-app-event"
+    },
+    {
+      "attributes": {
+        "name": "Wall_Helper",
+        "twx-entity-type": "Things",
+        "twx-entity-name": "Wall_Helper"
+      },
+      "name": "twx-model",
+      "children": [
+        {
+          "attributes": {
+            "id": "DataChange.Baliza_Roja_1",
+            "name": "DataChange",
+            "sourceproperty": "Baliza_Roja_1"
+          },
+          "name": "twx-model-event"
+        },
+        {
+          "attributes": {
+            "id": "DataChange.Baliza_Roja_2",
+            "name": "DataChange",
+            "sourceproperty": "Baliza_Roja_2"
+          },
+          "name": "twx-model-event"
+        },
+        {
+          "attributes": {
+            "id": "DataChange.Baliza_Verde_1",
+            "name": "DataChange",
+            "sourceproperty": "Baliza_Verde_1"
+          },
+          "name": "twx-model-event"
+        },
+        {
+          "attributes": {
+            "id": "DataChange.Baliza_Verde_2",
+            "name": "DataChange",
+            "sourceproperty": "Baliza_Verde_2"
+          },
+          "name": "twx-model-event"
+        },
+        {
+          "attributes": {
+            "id": "DataChange.Temp1",
+            "name": "DataChange",
+            "sourceproperty": "Temp1"
+          },
+          "name": "twx-model-event"
+        },
+        {
+          "attributes": {
+            "id": "DataChange.Temp2",
+            "name": "DataChange",
+            "sourceproperty": "Temp2"
+          },
+          "name": "twx-model-event"
+        },
+        {
+          "attributes": {
+            "id": "DataChange.VFD_current",
+            "name": "DataChange",
+            "sourceproperty": "VFD_current"
+          },
+          "name": "twx-model-event"
+        },
+        {
+          "attributes": {
+            "id": "DataChange.VFD_Speed_Read",
+            "name": "DataChange",
+            "sourceproperty": "VFD_Speed_Read"
+          },
+          "name": "twx-model-event"
+        },
+        {
+          "attributes": {
+            "id": "DataChange.VFD_torque",
+            "name": "DataChange",
+            "sourceproperty": "VFD_torque"
+          },
+          "name": "twx-model-event"
+        }
+      ]
     }
   ],
   "name": "twx-app-mdl"

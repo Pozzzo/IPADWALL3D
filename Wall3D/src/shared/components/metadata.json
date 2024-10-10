@@ -1,9 +1,8 @@
 {
-  "name": "Wall3D",
+  "name": "IPADWALL3D",
   "version": "1.0.0",
   "requires": [
-    "holographic",
-    "spatial-tracking"
+    "holographic"
   ],
   "experiences": [
     {
@@ -457,14 +456,14 @@
       }
     },
     {
-      "timestamp": "2024-10-10T13:55:52.825Z",
+      "timestamp": "2024-10-10T20:28:34.147Z",
       "action": "LATEST_SAVE",
       "usage": {
         "twx-view": 1,
         "twx-dt-view": 1,
         "twx-dt-model": 28,
         "twx-dt-target-spatial": 1,
-        "twx-dt-modelitem": 20,
+        "twx-dt-modelitem": 25,
         "twx-dt-image": 4,
         "twx-dt-label": 4
       }

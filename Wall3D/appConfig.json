@@ -1,8 +1,8 @@
 {
-  "name": "Wall3D",
+  "name": "IPADWALL3D",
   "projectType": "eyewear",
   "viewType": "ar",
-  "fileName": "Wall3D",
+  "fileName": "IPADWALL3D",
   "thingworxServer": "http://dinaut.eastus.cloudapp.azure.com:2019",
   "viewTemplateFileName": "home-ar-eyewear.json",
   "mainNavigationMenuStyle": "noMenu",
@@ -21,6 +21,13 @@
           "showInMainMenu": true,
           "viewType": "ar",
           "title": "Home"
+        },
+        {
+          "name": "AreaTarget",
+          "fileName": "AreaTarget",
+          "showInMainMenu": true,
+          "viewType": "ar",
+          "title": "AreaTarget"
         }
       ],
       "images": []
