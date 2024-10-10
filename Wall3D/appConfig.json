@@ -1,0 +1,51 @@
+{
+  "name": "Wall3D",
+  "projectType": "eyewear",
+  "viewType": "ar",
+  "fileName": "Wall3D",
+  "thingworxServer": "http://dinaut.eastus.cloudapp.azure.com:2019",
+  "viewTemplateFileName": "home-ar-eyewear.json",
+  "mainNavigationMenuStyle": "noMenu",
+  "device": {
+    "name": "eyewear"
+  },
+  "state": {
+    "orientation": "landscape"
+  },
+  "targets": {
+    "phone": {
+      "components": [
+        {
+          "name": "Home",
+          "fileName": "Home",
+          "showInMainMenu": true,
+          "viewType": "ar",
+          "title": "Home"
+        }
+      ],
+      "images": []
+    },
+    "shared": {
+      "components": [
+        {
+          "name": "Data",
+          "fileName": "Data"
+        }
+      ],
+      "images": [],
+      "styles": [
+        {
+          "name": "App",
+          "fileName": "App",
+          "fileExt": "scss"
+        }
+      ]
+    }
+  },
+  "resourceDirectory": "src/phone/resources",
+  "resourceRuntimeDir": "app/resources",
+  "fontRuntimeDir": "../fonts",
+  "fontDesigntimeDir": "../dist/fonts",
+  "theme": "twx-light",
+  "version": "9.21.3.0"
+}

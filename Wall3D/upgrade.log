@@ -1,0 +1,38 @@
+[2024-09-30T12:56:33.746Z] debug: [twx-studio:upgrade:Wall3D] Begin upgrade of project
+[2024-09-30T12:56:33.747Z] info: [twx-studio:upgrade:Wall3D] Upgrading project
+[2024-09-30T12:56:33.982Z] debug: [twx-studio:upgrade:Wall3D] Remove all the src-scaffold files from src
+[2024-09-30T12:56:33.984Z] debug: [twx-studio:upgrade:Wall3D] Deleting settings.path
+[2024-09-30T12:56:33.984Z] debug: [twx-studio:upgrade:Wall3D] Deleting settings.studioPath
+[2024-09-30T12:56:33.984Z] debug: [twx-studio:upgrade:Wall3D] C:\Users\dpozo\Documents\VuforiaStudio\Projects\Wall3D\src\shared\components\Device.json
+[2024-09-30T12:56:33.985Z] debug: [twx-studio:upgrade:Wall3D] Unable to migrate application parameters; none exist in project's appConfig.json.
+[2024-09-30T12:56:33.985Z] debug: [twx-studio:upgrade:Wall3D] Migrate service bindings for view
+[2024-09-30T12:56:33.985Z] debug: [twx-studio:upgrade:Wall3D] Updating bindings in view: 
+[2024-09-30T12:56:33.986Z] debug: [twx-studio:upgrade:Wall3D] Updating bindings in the Home json, file contents: {"attributes":{"twx-widget":"","viewtype":"ar","is-widget-container":"true"},"children":[{"name":"twx-container-content","children":[{"attributes":{"twx-widget":"","translation-key":"@ptc/ves-ar-extension:3D Container","is-widget-container":"true"},"name":"twx-dt-view","children":[{"name":"twx-container-content"}]}]},{"name":"twx-view-data"}],"name":"twx-view"}
+[2024-09-30T12:56:33.987Z] debug: [twx-studio:upgrade:Wall3D] Updating bindings in Data.json file, file contents: {"attributes":{"namespace":"app.mdl"},"children":[{"attributes":{"id":"vumark","isbound":"false","isdeletable":"false","name":"ThingMark","value":""},"name":"twx-app-param"},{"attributes":{"id":"template","isbound":"false","isdeletable":"false","name":"Thing Template","value":""},"name":"twx-app-param"},{"attributes":{"id":"thing","isbound":"false","isdeletable":"false","name":"Thing","value":""},"name":"twx-app-param"},{"attributes":{"name":"doubletap","isdeletable":"false","isvoicealiasable":"true"},"name":"twx-app-event"},{"attributes":{"name":"swipeleft","isdeletable":"false","isvoicealiasable":"true"},"name":"twx-app-event"},{"attributes":{"name":"swiperight","isdeletable":"false","isvoicealiasable":"true"},"name":"twx-app-event"},{"attributes":{"name":"swipeforward","isdeletable":"false","isvoicealiasable":"true"},"name":"twx-app-event"},{"attributes":{"name":"swipeback","isdeletable":"false","isvoicealiasable":"true"},"name":"twx-app-event"},{"attributes":{"name":"swipeup","isdeletable":"false","isvoicealiasable":"true"},"name":"twx-app-event"},{"attributes":{"name":"hold","isdeletable":"false","isvoicealiasable":"true"},"name":"twx-app-event"},{"attributes":{"name":"stopscan","isdeletable":"false","isvoicealiasable":"true","voicealias":"Stop Scan"},"name":"twx-app-event"}],"name":"twx-app-mdl"}
+[2024-09-30T12:56:33.988Z] debug: [twx-studio:upgrade:Wall3D] Unable to update the metadata.json file, the file was not found.
+[2024-09-30T12:56:33.988Z] debug: [twx-studio:upgrade:Wall3D] Did not add "swipeup" application event to Data.json, it already contains an application event with that name
+[2024-09-30T12:56:33.989Z] debug: [twx-studio:upgrade:Wall3D] Updating the textX and textY properties for 3D sensors contained in
+[2024-09-30T12:56:33.989Z] debug: [twx-studio:upgrade:Wall3D] Unable to update the metadata.json file, it was not found at C:\Users\dpozo\Documents\VuforiaStudio\Projects\Wall3D\src\shared\components\metadata.json
+[2024-09-30T12:56:33.990Z] debug: [twx-studio:upgrade:Wall3D] Contents of view before upgrading
+[2024-09-30T12:56:33.990Z] debug: [twx-studio:upgrade:Wall3D] Unable to update the metadata.json file, it was not found at C:\Users\dpozo\Documents\VuforiaStudio\Projects\Wall3D\src\shared\components\metadata.json
+[2024-09-30T12:56:33.995Z] debug: [twx-studio:upgrade:Wall3D] Moving .glb resources for project: Wall3D
+[2024-09-30T12:56:33.996Z] debug: [twx-studio:upgrade:Wall3D] No model target found!
+[2024-09-30T12:56:33.996Z] debug: [twx-studio:upgrade:Wall3D] starting mt upgrade
+[2024-09-30T12:56:33.996Z] debug: [twx-studio:upgrade:Wall3D] finishing mt upgrade
+[2024-09-30T12:56:33.996Z] debug: [twx-studio:upgrade:Wall3D] Make sure there are not any stale files lying around
+[2024-09-30T12:56:34.001Z] debug: [twx-studio:upgrade:Wall3D] Create .gitignore for project dir
+[2024-09-30T12:56:34.002Z] debug: [twx-studio:upgrade:Wall3D] Copying /src/**/* to project, overwrite=false
+[2024-09-30T12:56:34.003Z] debug: [twx-studio:upgrade:Wall3D] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2024-09-30T12:56:34.089Z] debug: [twx-studio:upgrade:Wall3D] Copy of project files complete
+[2024-09-30T12:56:34.089Z] debug: [twx-studio:upgrade:Wall3D] Updating version to 
+[2024-09-30T12:56:34.089Z] debug: [twx-studio:upgrade:Wall3D] Copying project specific default resources.
+[2024-09-30T12:56:34.286Z] debug: [twx-studio:upgrade:Wall3D] onupgrade sucessful, now build the project
+[2024-09-30T12:56:34.287Z] debug: [twx-studio:upgrade:Wall3D] BEGIN buildApp
+[2024-09-30T12:56:34.287Z] debug: [twx-studio:upgrade:Wall3D] write settings
+[2024-09-30T12:56:34.287Z] debug: [twx-studio:upgrade:Wall3D] copy runtime extensions
+[2024-09-30T12:56:34.910Z] debug: [twx-studio:upgrade:Wall3D] packageThemeSet
+[2024-09-30T12:56:37.043Z] debug: [twx-studio:upgrade:Wall3D] onBuild
+[2024-09-30T12:56:37.043Z] info: [twx-studio:upgrade:Wall3D] Building ves-ar-extension app:
+[2024-09-30T12:56:40.302Z] debug: [twx-studio:upgrade:Wall3D] pathDir
+[2024-09-30T12:56:42.139Z] debug: [twx-studio:upgrade:Wall3D] END buildApp
+[2024-09-30T12:56:42.139Z] debug: [twx-studio:upgrade:Wall3D] Build succeeded.
