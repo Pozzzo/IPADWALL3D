@@ -2,7 +2,8 @@
   "name": "IPADWALL3D",
   "version": "1.0.0",
   "requires": [
-    "holographic"
+    "holographic",
+    "spatial-tracking"
   ],
   "experiences": [
     {
@@ -456,16 +457,16 @@
       }
     },
     {
-      "timestamp": "2024-10-10T20:28:34.147Z",
+      "timestamp": "2024-10-10T20:57:27.002Z",
       "action": "LATEST_SAVE",
       "usage": {
-        "twx-view": 1,
-        "twx-dt-view": 1,
-        "twx-dt-model": 28,
-        "twx-dt-target-spatial": 1,
-        "twx-dt-modelitem": 25,
-        "twx-dt-image": 4,
-        "twx-dt-label": 4
+        "twx-view": 2,
+        "twx-dt-view": 2,
+        "twx-dt-model": 56,
+        "twx-dt-target-spatial": 2,
+        "twx-dt-modelitem": 50,
+        "twx-dt-image": 8,
+        "twx-dt-label": 10
       }
     }
   ],

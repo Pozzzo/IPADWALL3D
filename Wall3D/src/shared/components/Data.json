@@ -128,6 +128,78 @@
       "children": [
         {
           "attributes": {
+            "name": "Baliza_Roja_1",
+            "twx-auto-refresh": "true",
+            "twx-model": "app.mdl[\"Wall_Helper\"].properties[\"Baliza_Roja_1\"]"
+          },
+          "name": "twx-model-property"
+        },
+        {
+          "attributes": {
+            "name": "Baliza_Roja_2",
+            "twx-auto-refresh": "true",
+            "twx-model": "app.mdl[\"Wall_Helper\"].properties[\"Baliza_Roja_2\"]"
+          },
+          "name": "twx-model-property"
+        },
+        {
+          "attributes": {
+            "name": "Baliza_Verde_1",
+            "twx-auto-refresh": "true",
+            "twx-model": "app.mdl[\"Wall_Helper\"].properties[\"Baliza_Verde_1\"]"
+          },
+          "name": "twx-model-property"
+        },
+        {
+          "attributes": {
+            "name": "Baliza_Verde_2",
+            "twx-auto-refresh": "true",
+            "twx-model": "app.mdl[\"Wall_Helper\"].properties[\"Baliza_Verde_2\"]"
+          },
+          "name": "twx-model-property"
+        },
+        {
+          "attributes": {
+            "name": "Temp1",
+            "twx-auto-refresh": "true",
+            "twx-model": "app.mdl[\"Wall_Helper\"].properties[\"Temp1\"]"
+          },
+          "name": "twx-model-property"
+        },
+        {
+          "attributes": {
+            "name": "Temp2",
+            "twx-auto-refresh": "true",
+            "twx-model": "app.mdl[\"Wall_Helper\"].properties[\"Temp2\"]"
+          },
+          "name": "twx-model-property"
+        },
+        {
+          "attributes": {
+            "name": "VFD_current",
+            "twx-auto-refresh": "true",
+            "twx-model": "app.mdl[\"Wall_Helper\"].properties[\"VFD_current\"]"
+          },
+          "name": "twx-model-property"
+        },
+        {
+          "attributes": {
+            "name": "VFD_Speed_Read",
+            "twx-auto-refresh": "true",
+            "twx-model": "app.mdl[\"Wall_Helper\"].properties[\"VFD_Speed_Read\"]"
+          },
+          "name": "twx-model-property"
+        },
+        {
+          "attributes": {
+            "name": "VFD_torque",
+            "twx-auto-refresh": "true",
+            "twx-model": "app.mdl[\"Wall_Helper\"].properties[\"VFD_torque\"]"
+          },
+          "name": "twx-model-property"
+        },
+        {
+          "attributes": {
             "id": "DataChange.Baliza_Roja_1",
             "name": "DataChange",
             "sourceproperty": "Baliza_Roja_1"
